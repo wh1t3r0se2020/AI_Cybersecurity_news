@@ -17,7 +17,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # Initialize the official Google GenAI client
 client = genai.Client(api_key=GEMINI_API_KEY)
-GEMINI_MODEL = "gemini-2.5-flash"  # Fast and efficient model for text analysis
+GEMINI_MODEL = "gemini-3.8-flash"  # Fast and efficient model for text analysis
 
 
 def fetch_raw_news() -> list:
